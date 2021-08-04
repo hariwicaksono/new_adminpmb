@@ -1,0 +1,6 @@
+#getmk{
+	display:none;position:absolute;background-color:#FFF;min-width:50px;min-height:20px;border:5px solid #eeeeee;z-index:1;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}

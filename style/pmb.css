@@ -1,0 +1,498 @@
+body{
+	font-size:12px;
+	font-family:Verdana,Arial, Geneva,Helvetica, sans-serif;	
+}
+a{
+	text-decoration:none;
+	/*color:#8000ff;*/
+	color:#2C7FC1;	
+}
+
+li{
+	list-style:none;	
+}
+
+select{
+	font-size:11px;
+	border:1px solid #d3d3d3;
+	width:180px;
+}
+
+select:hover{
+	cursor:pointer;
+}
+
+input{
+	border:1px solid #d3d3d3;
+	text-align:left;	
+}
+
+input[type=radio]{
+	cursor:pointer;
+}
+
+input[type=submit],input[type=reset]{
+	font-weight:bold;
+	background-color:#808080;
+	border:none;
+}
+
+input[type=submit]:hover,input[type=reset]:hover,input[type=button]:hover{
+	background-color:#c0c0c0;
+	cursor:pointer;
+}
+
+textarea{
+	height:100px;	
+}
+
+sub{
+	color:#ff0000;
+}
+
+#main_container{		
+	margin:0px auto;
+	width:1000px;	
+	-moz-border-radius:5px;
+	background-color:#F0F4FB;	
+}
+
+#head_container{	
+	height:108px;
+}
+
+#head_logo{
+	float:left;
+	height:108px;
+	width:170px;
+	background:#56348b;	
+}
+
+#sure_logo{
+	width:98px;
+	height:92px;
+	background:url(img/logo.png) no-repeat;
+	margin:3px auto;
+}
+
+#head_name{	
+	float:right;
+	height:108px;
+	width:830px;
+	background:#56348b;	
+	
+}
+
+#campus_name{
+	margin-top:25px;
+	margin-left:10px;
+	vertical-align:middle;
+	font-size:20;
+	font-weight:bold;
+	color: #fbb52b;
+}
+
+#campus_about{
+	margin-top:5px;
+	font-size:10;
+	margin-left:10px;	
+	color: #ffffff;
+}
+
+#info_bar{
+	height:52px;
+	background:#f9aa2e;		
+}
+
+#info_user{
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	color : #ffffff;
+}
+
+#info_thnpmb{
+	margin-top:10px;
+	margin-right:10px;
+	float:right;
+	color :#ffffff;
+}
+
+#info_user,#info_thnpmb{
+	color:#ffffff;
+	font-weight:bold;
+	padding-top:5px;
+}
+
+
+#middle_container{
+	
+}
+
+#menu_container{
+	width:150px;	
+	float:left;
+	margin:2px 2px 2px 2px;
+	padding:3px 3px 3px 2px;
+	-moz-border-radius:5px;	
+	min-height:400px;
+	background-color:#F0F4FB;		
+}
+
+#menu_head,#menu_headleft,#menu_headcenter,#menu_headright{
+	height:41px;
+}
+
+#menu_headleft{
+	width:12px;
+	background:url(img/tabel_atas_kiri.png) no-repeat;
+	float:left;
+}
+
+#menu_headcenter{	
+	width:126px;float:left;
+	background:url(img/tabel_atas_tengah.png) repeat-x;
+	padding-top:12px;
+}
+
+#menu_headcenter label{
+	font-size:14px;
+	font-weight:bold;	
+	margin-top:10px;
+}
+
+#menu_headright{
+	width:12px;
+	background:url(img/tabel_atas_kanan.png) no-repeat;
+	float:right;
+}
+
+#menu_foot{
+	background-color:#2C7FC1;
+	height:39px;
+	-moz-border-radius-bottomright:8px;
+	-moz-border-radius-bottomleft:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-webkit-border-bottom-right-radius:8px;		
+}
+
+/*
+#menu_foot,#menu_footleft,#menu_footcenter,#menu_footright{	height:39px;}
+#menu_footleft{width:12px;background:url(img/foot_menu_bg_left.png) no-repeat;float:left;}
+#menu_footcenter{width:126px;float:left;background-color:#266FAA;}
+#menu_footright{width:12px;background:url(img/foot_menu_bg_right.png) no-repeat;float:right;}
+*/
+
+#list_menu li{	
+	background-color:#2C7FC1;
+	padding:10px 4px 10px 4px;	
+}
+
+#list_menu li:hover {
+	background-color:#7DCAE3;	
+}
+
+#list_menu a{
+	padding:4px;
+	font-weight:bold;
+	color:#FFF;
+}
+
+#list_menu a:hover {
+	color:#ffffff;
+}
+
+#menu_foot{
+	
+}
+
+#content_container{
+	width:820px;	
+	float:right;
+	margin:2px 0px 2px 2px;
+	padding:5px;
+	-moz-border-radius:5px;
+	min-height:400px;
+	/*background-color:#F0F4FB;*/
+	background-color:#f5f5f5;
+	border:1px solid #205796;	
+}
+
+#content_title{	
+	text-align:center;
+}
+
+#content_gel li{
+	display:inline;
+	margin:0px 5px 0px 5px;	
+}
+
+#content_gel li a{
+	color:#000000;
+	font-weight:bold;
+}
+
+#content_gel li a:hover{
+	color:#0000ff;
+	text-decoration:underline;
+}
+
+#content_table table{	
+	font-size:11px;	
+	border:1px solid;
+}
+
+#content_table table th{
+	background-color:#808080;
+	text-align:center;
+	color:#ffffff;
+	border:1px solid;
+}
+
+#content_table table td{
+	padding-left:2px;
+}
+
+#content_table table tr:hover{
+	/*background-color:#80ff80;*/
+	background-color:#2C7FC1;
+}
+
+#content_table table td a{
+	color:#000000;
+	font-weight:bold;
+}
+
+#content_table table td a:hover{
+	color:#0000ff;
+	text-decoration:underline;	
+}
+
+#content_form table{
+	/*background-color:#bbffbb;*/
+	background-color:#FFF; 
+	margin:2px 0px 2px 0px;
+	font-size:11px;
+	border:1px solid #d3d3d3;
+}
+
+#content_form td{
+	padding:0px 4px 0px 4px;
+}
+
+.content_preview {
+	background-color:#bbffbb; 
+	margin:2px 0px 2px 0px;
+	font-size:11px;
+	border:1px solid #d3d3d3;
+}
+
+.content_preview td{
+	
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:2px;
+}
+
+#foot_container{	
+	clear:both;		
+	height:36px;
+	font-size:10px;	
+	background:url(img/tab_biru_bawah.png) repeat-x;	
+}
+
+#foot_container center{padding-top:5px;}
+
+#content_error{color:#ff0000;}
+
+.black{background-color:#d8d8d8;}
+
+.qp_counter{
+	margin-left:10px;
+	margin-right:10px;
+}
+
+.tb_title{
+	font-weight:bold;	
+	font-size:14px;
+	background-color:#205796;
+	color:#FFF;	
+}
+
+.mybutton input{
+	background-color:#808080;
+	color:#000000;
+	margin:0px 2px 0px 2px;
+	font-weight:bold;
+}
+
+.mybutton input:hover{
+	background-color:#b5b5b5;
+	cursor:pointer;
+}
+
+.require{color:#ff0000;}
+
+label.error{
+	color:#ff0000;
+	display:none;
+}
+
+#nodaf1,#nodaf2{
+	text-align:center;
+	color:#c0c0c0;
+}
+
+#search_box input{
+	margin:0px 2px 0px 2px;
+	border:1px solid #c0c0c0;
+}
+#search_box input[type=submit]{
+	background-color:#808080;
+	color:#000000;
+	font-weight:bold;
+}
+
+#common_table{text-align:center;}
+#common_table td{padding-left:5px;}
+#menu-inside li{display:inline;}
+#menu-inside a{
+	font-weight:bold;
+	margin:0px 5px 0px 5px;
+	padding:5px;
+}
+
+#menu-inside a:hover{
+	background-color:#808080;
+	cursor:pointer;
+	color:#ffffff;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}
+
+#loginbox{
+	margin-top:30px;
+	width:250px;
+	min-height:360px;	
+}
+
+.loginbox_headleft,.loginbox_head,.loginbox_headright{height:41px;}
+
+.loginbox_headleft{
+	width:12px;
+	background:url(img/tabel_atas_kiri.png) no-repeat;
+	float:left;
+}
+
+.loginbox_head{
+	width:226px;
+	background:url(img/tabel_atas_tengah.png) repeat-x;
+	float:left;
+}
+
+.loginbox_headright{
+	width:12px;
+	background:url(img/tabel_atas_kanan.png) no-repeat;
+	float:right;
+}
+
+
+#loginform,.logformleft,.logform,.logformright{
+	height:126px;
+}
+
+.logformleft{
+	width:12px;
+	background:url(img/tabel_bawah_kiri.png) no-repeat;
+	float:left;
+}
+
+.logform{
+	width:226px;
+	background:url(img/tabel_bawah_tengah.png) repeat-x;
+	float:left;
+}
+
+.logform table{margin-top:15px;font-size:12px;font-weight:bold;color:#FFF;}
+.logformright{
+	width:12px;
+	background:url(img/tabel_bawah_kanan.png) no-repeat;
+	float:right;
+}
+
+.logingo{
+	width:69px;
+	height:27px;
+	background-image: url(img/btn_login.png);
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+}
+
+.logingo:hover{
+	width:69px;
+	height:27px;
+	background-image: url(img/btn_login_over.png);
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	clear:both;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;	
+}
+
+
+.text-long{width:300px;}
+.text-medium{width:200px;}
+.text-short{width:100px;}
+
+.justread{background-color:#e5e5e5;}
+
+.chart{
+	background:#000000;
+	padding:10px;
+	width:760px;
+	height:410px;
+	opacity:0.2;
+	border:1px solid #000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.title_table,.title_table_l,.title_table_c,.title_table_r{
+	height:29px;
+}
+
+.title_table_l{
+	width:11px;
+	background:url(img/tab_title_kiri.png) no-repeat;
+	float:left;
+}
+
+.title_table_c{
+	width:798px;
+	background:url(img/tab_title_tengah.png) repeat-x;
+	float:left;
+}
+
+.title_table_r{
+	width:11px;
+	background:url(img/tab_title_kanan.png) no-repeat;
+	float:right;
+}
+
+#table_box{
+	background-color:#ffffff;
+	padding:10px;
+	border:1px solid #d8d8d8;
+	-moz-border-radius-bottomright:8px;
+	-moz-border-radius-bottomleft:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-webkit-border-bottom-right-radius:8px;	
+}
+
+#table_box .inside{
+	font-size:12px;
+}
+
+

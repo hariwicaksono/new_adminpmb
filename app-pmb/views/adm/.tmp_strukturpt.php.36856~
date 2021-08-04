@@ -1,0 +1,28 @@
+<script type="text/javascript">
+	function formload(param1,param2,param3){
+		$.ajax ({
+			url: "<?php echo site_url('cloader/getDataMhs')?>" + "/" + kode,			
+			success: function(msg){								
+				$("#fromajax").html(msg);
+			}
+		});
+	}
+</script>
+<center>
+<h2>MANAGE DEPARTEMEN</h2>
+<div id="content_error">
+		<?php if(!empty($messageproc)){ echo $messageproc.'<br /><br />';} ?>				
+</div>
+<div>
+	<?php
+		foreach($strukturmenu as $data=>$item){
+			echo anchor('adm/'.$data," | ".$item." | ");
+		}
+	?>	
+</div>	
+<div id="content_form">
+	<div id="fromajax">
+		
+	</div>	
+</div>
+</center>
