@@ -23,7 +23,7 @@
 | NO TRAILING SLASH!
 |
 */
-	$system_folder = "main";
+	$system_folder = "../main";
 
 /*
 |---------------------------------------------------------------
