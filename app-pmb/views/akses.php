@@ -8,7 +8,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo base_url(); ?>amikompurwokerto.ico" />
     <!-- font css -->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo base_url()?>templates/mazer-amikom/css/bootstrap.css">
 	<link rel="stylesheet" href="<?php echo base_url()?>templates/mazer-amikom/vendors/iconly/bold.css">
 	<link rel="stylesheet" href="<?php echo base_url()?>templates/mazer-amikom/vendors/sweetalert2/sweetalert2.min.css">
@@ -39,7 +38,7 @@
                                     <img src="<?php echo base_url()?>image/logo_uap.png" width="80" alt="" title="">
                                 </div>
                                 <div class="col-md-10" style="margin-left: -70px;">
-                                    <h1 class="h3 text-white"><?php echo $profil['NAMA']; ?></h1>
+                                    <h1 class="h3 text-white fw-bold"><?php echo $profil['NAMA']; ?></h1>
                                     <p class="mb-0">
                                         <?php echo $profil['ALAMAT1'].', '.$profil['KOTA'].', Kode Pos: '.$profil['KODE_POS'].', Telp: '.$profil['TELEPON'];?>
                                     </p>
@@ -74,20 +73,19 @@
                         <div class="card-body">
                             <div class="row justify-content-center">
                                 <div class="col-md-4 border border-3 p-4">
-                                    <h2>Login</h2>
-                                    <h4 class="mb-3">Silakan masuk</h4>
+                                    <h2 class="mb-3">Login</h2>
                                     <?php echo form_open('login/toenter','id="validation-form123"');?>
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
-                                        <input type="text" class="form-control" name="pengguna"
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="pengguna" name="pengguna"
                                             placeholder="Masukkan nama pengguna">
+                                        <label for="pengguna">Username</label>
                                     </div><!-- form-group -->
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text"><i class="bi bi-lock-fill"></i></span>
-                                        <input type="password" class="form-control" name="passw"
+                                    <div class="form-floating mb-3">
+                                        <input type="password" class="form-control" id="password" name="passw"
                                             placeholder="Masukkan kata sandi">
+                                        <label for="password">Password</label>
                                     </div><!-- form-group -->
-                                    <button class="btn btn-block btn-primary">Masuk</button>
+                                    <button class="btn btn-block btn-primary btn-lg">Masuk</button>
                                     <?php echo form_close();?>
                                 </div>
                             </div>

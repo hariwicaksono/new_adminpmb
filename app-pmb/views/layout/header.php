@@ -47,6 +47,6 @@
 </style>
 </head>
 	
-<body class="pc-horizontal">
+<body>
 
 
